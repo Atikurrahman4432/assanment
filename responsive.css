@@ -1,0 +1,178 @@
+/*Media Query*/
+
+/*only mobile devices*/
+
+@media only screen and (max-width: 576px)  {
+
+    .top-section{
+        margin-left: 0px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .top-menubar{
+        gap: 5px;
+        flex-direction: column;
+        
+    }
+    .company-name{
+        margin-right: 100px;
+    }
+    .manu a{
+        margin-left: 5px;
+        
+    }
+    .brand-title{
+        margin-top: 60px;
+    }
+    .bannar img{
+        width: 400px;
+        height: 200px;
+    }
+    .main-title{
+        font-size: 16px;
+    }
+    .pragraph{
+        color: #727272;
+        font-size: 5px;
+    }
+    .main-first-section{
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
+
+    }
+    .image img{
+        width: 150px;
+        height: 150px;
+        margin-left: 70px;
+    }
+    .description{
+        margin: 0px 0px 0px 70px;
+    }
+    .description a{
+        color: #131313;
+        font-size: 16px;
+    }
+    .pragraph-title{
+        font-size: 16px;
+
+    }
+    .pragraph-titles{
+        font-size: 16px;
+    }
+    .pragraph-titlee{
+        font-size: 16px;
+    }
+    .pragraph{
+        font-size: 10px;
+    }
+    .btn{
+        width: 60px;
+        height: 30px;
+        font-size: 8px;
+        background-color: #FF900E;
+        border-radius: 5px;
+        color: #FFFFFF;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        border: 0px;
+    }
+    .picture img{
+        width: 300px;
+        height: 200px;
+        margin: 152px 2px 2px 100px;
+
+    }
+    .main-second-section{
+        flex-direction: column;
+        margin-top: 3px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .btn-2{
+        width: 60px;
+        height: 30px;
+        background: #FF900E;
+        font-size: 10px;
+        color: #FFFFFF;
+        border: 0;
+        border-radius: 5px;
+        transform: translate(170%, -130%);
+       -ms-transform: translate(-10%, -10%);
+    
+    }
+    .third-section{
+        margin: 2px 2px 2px 70px;
+        font-size: 16px;
+
+    }
+    .third-section h2{
+        font-size: 16px;
+    }
+    .Facts{
+        flex-direction: column;
+        gap: 5px;
+        margin: 2px 2px;
+    }
+    .main-third-section{
+        flex-direction: column;
+
+    }
+    .sub-title{
+        font-size: 16px;
+        
+    }
+    .Sponspors{
+        margin-right: 200px;
+    }
+    .Sponspors h1{
+        font-size: 16px;
+       
+    }
+    .Sponspors p{
+        font-size: 10px;
+        
+    }
+    .icon{
+        flex-direction: column;
+        margin: 2px 2px 2px 70px;
+
+    }
+    .icon img{
+        margin-top: 30px;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .address{
+        margin: 2px 2px 2px 2px;
+    }
+    .follow {
+        display: none;
+
+    }
+    .footer-icon{
+        display: none;
+    }
+    .address h3{
+        font-size: 14px;
+    }
+    .address p{
+        font-size: 10px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        color: #727272;
+        font-size: 10px;
+    }
+  
+}

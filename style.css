@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&family=Work+Sans:wght@500&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*top section start*/
+
+.top-section{
+    background: #FF900E1A;
+    margin-top: 0px;
+            
+}
+.top-menubar{
+    display: flex;
+    gap: 630px;
+
+}
+.company-name{
+    margin-left: 100px;
+    margin-top: 50px;
+
+}
+.menu{
+    margin-top: 50px;
+    
+}
+.menu a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-size: 15px;
+   
+}
+.brand-title{
+    text-align: center;
+}
+.main-title{
+    font-size: 40px;
+    
+}
+.brand-title p{
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+.btn{
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 25px;
+    border: 0px;
+}
+
+.bannar{
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+.bannar img{
+    width: 1100px;
+    height: 520px;
+    
+}
+
+/* top section end */
+
+/*main first section start*/
+
+.main-first-section{
+    display: flex;
+    margin-top: 85px;
+    margin-left: 200px;
+    margin-right: 101px;
+}
+.image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.image img{
+    width: 200px;
+    height: 200px;
+}
+.description{
+    width: 537px;
+    height: 304px;
+    margin-top: 60px;
+    margin-left: 73px;
+}
+.pragraph-title{
+    color: #727272;
+    font-size: 45px;
+}
+.description a{
+    text-decoration: none;
+    color: #131313;
+    font-size: 45px;
+}
+.pragraph-titles {
+    color: #FF900E;
+    font-size: 45px;
+}
+.pragraph{
+    color: #727272;
+    font-size: 14px;
+}
+/*main first section end*/
+
+/*main second section start*/
+
+.main-second-section{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.pragraph-titlee{
+    font-size: 35px;
+    color: #131313;
+}
+article{
+    margin-left: 30px;
+}
+.sub-title{
+    font-size: 18px;
+}
+.picture{
+    margin-left: 54px;
+    position: relative;
+
+}
+.btn-2{
+    width: 200px;
+    height: 100px;
+    background: #FF900E;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    transform: translate(-0%, -105%);
+    -ms-transform: translate(-50%, -50%);
+
+}
+/*main second section end*/
+
+/*main third section start*/
+
+.third-section{
+    margin-left: 120px;
+}
+.Facts{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    width: 140px;
+    height: 140px;
+    border: 1px solid #FF900E;
+    margin-left: 100px;
+}
+.container img , h5{
+    margin: 18px 0px 0px 50px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    font-size: 15px;
+}
+.container p { 
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #727272;
+    font-size: 12px;
+}
+.container:hover{
+    transition: 1s;
+    transform: rotate(100deg);
+}
+
+
+/*main third section end*/
+
+/*main Our Sponspors sector start*/
+
+.Sponspors{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    
+}
+.icon img{
+    margin-left: 50px;
+    width: 140px;
+    height: 40px;
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+
+/*main Our Sponspors sector end*/
+
+/*footer sector start*/
+
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    background: #FF900E1A;
+
+}
+.footer-icon{
+    margin-left: 180px;
+  
+}
+.footer-icon a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.follow{
+    margin-left: 200px;
+}
+
+/*copyright section start*/
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    color: #727272;
+    font-size: 15px;
+}
+
+/*copyright section end*/
+
+/*footer sector end*/
+
+
+
